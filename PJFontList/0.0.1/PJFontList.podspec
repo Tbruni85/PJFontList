@@ -54,9 +54,6 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "Tiziano Bruni" => "tiziano.bruni@gmail.com" }
-  # Or just: s.author    = "Tiziano Bruni"
-  # s.authors            = { "Tiziano Bruni" => "tiziano.bruni@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Tiziano Bruni"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +61,6 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
   s.platform     = :ios, "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -73,7 +69,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:Tbruni85/PJFontList.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Tbruni85/PJFontList.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
